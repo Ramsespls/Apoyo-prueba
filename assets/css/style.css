@@ -64,7 +64,7 @@ body {
 }
 
 .bg-custom {
-    background-color: #0BCBF1;
+    background-color: #0BCBF1; /*cards*/
     color: white; 
 }
 
@@ -75,4 +75,3 @@ body {
 .fondo-pie p {
     color: white;
 }
-
