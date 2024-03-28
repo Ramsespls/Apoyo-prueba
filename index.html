@@ -54,7 +54,7 @@
     </div>
 
     <!--Carrusel-->
-    <header>
+    <header class="position-relative">
         <div class="container-fluid p-0">
             <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
@@ -130,7 +130,7 @@
                     <div class="card mx-auto mb-3 bg-custom" style="max-width: 18rem;">
                         <img src="assets\img\card1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title toggle-p">Lorem ipsum dolor sit amet</h5>
+                            <h5 class="card-title toggle-p" data-bs-toggle="tooltip" data-bs-placement="top" title="Haga click para ocultar el texto">Lorem ipsum dolor sit amet</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
                                 tenetur minus blanditiis nihil, placeat rerum iste tempora cum iusto ab aliquid illum.
                                 Ullam illo quae earum saepe mollitia alias amet?</p>
@@ -141,7 +141,7 @@
                     <div class="card mx-auto mb-3 bg-custom" style="max-width: 18rem;">
                         <img src="assets\img\card2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title toggle-p">Consectetur adipiscing elit</h5>
+                            <h5 class="card-title toggle-p" data-bs-toggle="tooltip" data-bs-placement="top" title="Haga click para ocultar el texto">Consectetur adipiscing elit</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas vel
                                 expedita eos ut tempore incidunt quod quo nisi non delectus sint ex, sequi corporis unde
                                 dolores quae possimus quam. Fugiat?</p>
@@ -152,7 +152,7 @@
                     <div class="card mx-auto mb-3 bg-custom" style="max-width: 18rem;">
                         <img src="assets\img\card3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title toggle-p">Sed do ejusmod tempor incididunt ut labore</h5>
+                            <h5 class="card-title toggle-p" data-bs-toggle="tooltip" data-bs-placement="top" title="Haga click para ocultar el texto">Sed do ejusmod tempor incididunt ut labore</h5>
                             <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt
                                 voluptatum, sapiente aliquid accusamus tempora dolorem soluta saepe fugiat dolor
                                 distinctio doloribus possimus ducimus, placeat illo. Voluptatibus expedita consequatur
@@ -164,7 +164,7 @@
                     <div class="card mx-auto mb-3 bg-custom" style="max-width: 18rem;">
                         <img src="assets\img\card4.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title toggle-p">Ud enim ad minim vediam</h5>
+                            <h5 class="card-title toggle-p" data-bs-toggle="tooltip" data-bs-placement="top" title="Haga click para ocultar el texto">Ud enim ad minim vediam</h5>
                             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat quo
                                 repudiandae in quod dolore reprehenderit similique, debitis qui voluptates possimus id
                                 officiis repellendus. Odio, fugiat. In, excepturi? Voluptas, odit labore.</p>
@@ -176,21 +176,21 @@
     </div>
 
     <!--FORMULARIO DE CONTACTO-->
-    <div class="container pb-5" id="contacto">
+    <div class="container pb-5 mx-auto" id="contacto">
         <h3 class="Contacto text-center text-white">Contacto</h3>
         <div class="mb-3 py-5">
-            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+            <label for="exampleFormControlInput1" class="form-label text-white">Nombre</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Armando Barreda">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label text-white">Correo electrónico</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
         </div>
         <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Asunto</label>
+            <label for="exampleFormControlTextarea1" class="form-label text-white">Asunto</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
-        <button type="button" class="btn btn-info">Enviar</button>
+        <button type="button" class="btn btn-info text-white" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Enviar mensaje">Enviar</button>
     </div>
 
     <!--Footer-->
