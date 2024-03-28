@@ -7,35 +7,35 @@ body {
 }
 
 .navbar-transparent {
-    background-color: transparent !important;
+    background-color: transparent !important; 
     box-shadow: none !important;
 }
 
 .navbar-toggler {
-    border: 1px solid white;
+    border: 1px solid white; /* botón del navbar comprimido*/
 }
 
-.navbar-toggler-icon {
+.navbar-toggler-icon {  /* botón del navbar comprimido*/
     filter: invert(1);
 }
 
-.divider {
+.divider { /*divisor texto-favicons */
     width: 100%;
-    background-color: #0BCBF1; /* Color de fondo del divisor */
-    padding: 10px; /* Padding del color especificado */
-    text-align: center; /* Centra el contenido del divisor */
-    margin-bottom: 20px; /* Espacio entre el párrafo y la división siguiente */
+    background-color: #0BCBF1; 
+    padding: 10px; 
+    text-align: center; 
+    margin-bottom: 20px; 
 }
 
 /* Estilos para los íconos de Font Awesome */
 .divider i {
     color: white; /* Color del ícono */
     background-color: #0BCBF1; /* Color de fondo del ícono */
-    border-radius: 50%; /* Forma circular del ícono */
-    padding: 10px; /* Espaciado dentro del ícono */
-    margin-top: -20px; /* Alinea el ícono con la parte superior del párrafo */
-    margin-bottom: 20px; /* Espacio entre el ícono y el párrafo siguiente */
-    display: inline-block; /* Permite alinear el ícono en línea con el texto */
+    border-radius: 50%; 
+    padding: 10px; 
+    margin-top: -20px; 
+    margin-bottom: 20px; 
+    display: inline-block; 
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -44,12 +44,12 @@ body {
 }
 
 .container-fluid.principal.mifondo img {
-    width: 2.5%;
-    /* Ajusta el tamaño de la imagen según sea necesario */
+    width: 3%;
+    /* tamaño de la imagen */
     height: auto;
-    /* Para mantener la proporción de la imagen */
+    
     margin-right: 10px;
-    /* Espacio entre la imagen y el texto */
+   
 }
 
 .container-fluid.principal.mifondo .navbar-brand {
