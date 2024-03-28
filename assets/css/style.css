@@ -62,3 +62,16 @@ body {
     font-size: 18px;
     /* Tamaño del texto */
 }
+
+.bg-custom {
+    background-color: #0BCBF1;
+    color: white; 
+}
+
+.fondo-pie {
+    background-color: #0BCBF1;
+}
+
+.fondo-pie p {
+    color: white;
+}
